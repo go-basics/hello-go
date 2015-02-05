@@ -9,6 +9,5 @@ import (
 func main() {
 	fmt.Printf("Hello, world.\n")
 	fmt.Printf("!oG ,olleH reversed is:- ")
-	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
-	fmt.Printf("\n")
+	fmt.Println(stringutil.Reverse("!oG ,olleH"))
 }
